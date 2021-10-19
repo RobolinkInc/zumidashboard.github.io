@@ -1,0 +1,159 @@
+/* ------------------------------------------- */
+/* BASICS */
+/* ------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CCF5F1;
+    color: #5F6A74;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* ------------------------------------------- */
+/* HEADERS */
+/* ------------------------------------------- */
+
+h1 {
+    font-size: 190%;
+    color: #007166;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 140%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.zumi-face img, 
+.rb-logo img {
+    max-width: 70%;
+}
+    
+.jumbotron {
+    margin: 0;
+    padding: 25px;
+    background-color: #CCF5F1;
+}
+
+.rb-logo {
+    padding-top: 45px;
+}
+
+.zumi-face {
+    margin: 0 0 35px;
+}
+
+.flag-box { 
+    right: 0.6%;;
+    position: absolute;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.flag-box > .col {
+    padding: 10px 2px 0;
+}
+
+.flag-box img {
+    width: 45px;
+    border-radius: 8px;
+}
+
+.flag-item a {    
+    text-decoration: none;
+    color: #5F6A74; 
+    border-bottom: 1px solid transparent;
+    transition: color 0.5s, border-bottom 0.5s;
+}
+
+.flag-item a:hover {
+    color: #007166;
+    border-bottom: 1px solid #007166;
+}
+
+.default-flag a {
+    color: #007166;
+    border-bottom: 1px solid #007166;
+}
+
+/* ------------------------------------------- */
+/* STEPS */
+/* ------------------------------------------- */
+
+h3 {
+    color: #007166;
+    font-weight: bold;
+    width: 100%;
+}
+
+.steps-box img {
+    display: block;
+    margin: 30px auto 0 auto;
+    height: auto;
+    max-width: 100%;   
+}
+
+.steps-box div p {
+    width: 100%;
+}
+
+.step-one {
+    margin: 140px auto;
+}
+
+.step-two {
+    margin-bottom: 15px;
+}
+
+.step-two a {
+    text-decoration: none;
+    color: #007166;
+}
+
+.step-three img {
+    margin: 40px auto;
+}
+
+/* ------------------------------------------- */
+/* FOOT LINKS */
+/* ------------------------------------------- */
+
+.foot-link-box {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.foot-link-item {
+    margin: 10px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.foot-link-item:hover {
+    border-bottom: 1px solid #007166;
+}
+
+.foot-link-item a {
+    color: #5F6A74;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.foot-link-item a:hover {
+    color: #007166;
+}
